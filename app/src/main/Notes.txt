@@ -1,0 +1,5 @@
+New Object implementation locations:
+	Gameobject:        set Type
+	AsteroidsRenderer: initialize game manager object in CreateObjects
+		       	   Call gm.obj.draw() in draw()
+	GameManager :      Declare object in GameManager class
